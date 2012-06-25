@@ -1,0 +1,1139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, button
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border: none;
+}
+
+div, ul, ol, li {
+    _zoom: 1;
+}
+
+body {
+    background: #ffffff url(../img/body-top.png) repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #000000;
+    line-height: 18px;
+}
+
+body #wrapper {
+    background: url(../img/body-bottom.png) repeat-x;
+    background-position: left bottom;
+    padding: 0 0 55px 0;
+    position: relative;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #1f5bae;
+}
+
+ul.list {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    line-height: 21px;
+}
+
+ul.list li {
+    padding: 0 0 0 19px;
+    background: url(../img/dot.png) no-repeat;
+    background-position: 10px center;
+    margin: 0;
+}
+
+#menu a:hover, p a:hover, div.form-login a:hover, #footer ul li a:hover, h2 a:hover, table td a:hover, a.remind:hover, ul.list li a:hover {
+    text-decoration: underline;
+}
+
+input.text {
+    background: #ffffff;
+    border: #c2c2c2 solid 1px;
+    padding: 0 9px;
+    height: 23px;
+    line-height: 23px;
+    color: #a0a0a0;
+}
+
+input.submit {
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+
+input.submit::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+
+ul.ui-menu {
+    background: #ffffff;
+    border: solid 1px #a2bff0;
+    list-style: none;
+    padding: 2px 8px;
+    width: 522px !important;
+}
+
+ul.ui-menu li {
+    margin: 0 -8px;
+}
+
+ul.ui-menu li a {
+    display: block;
+    padding: 2px 8px;
+    font-weight: bold;
+}
+
+ul.ui-menu li a span.autocomplete-highlight {
+    font-weight: normal;
+}
+
+ul.ui-menu li a.ui-state-hover {
+    background: #d5e2ff;
+}
+
+div.login,
+div.form-login {
+    clear: both;
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+div.login {
+    padding: 3px 0 0;
+    color: #414141;
+    *width: 380px;
+}
+
+div.login a.mail {
+    padding: 0 18px 0 0;
+    background: url(../img/mail.gif) no-repeat;
+    background-position: center right;
+}
+
+div.login a {
+    color: #1f5bae;
+    font-weight: bold;
+}
+
+div.login a.logout,
+#loginbox a.submit {
+    width: 75px;
+    height: 25px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    background: url(../img/logout.png) no-repeat;
+    margin: 0 0 0 15px;
+}
+
+div.login a.logout:hover,
+#loginbox a.submit:hover {
+    background-position: left -25px !important;
+}
+
+div.form-login input.text {
+    width: 94px;
+    position: relative;
+    top: -1px;
+}
+
+div.form-login input.submit {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border: none;
+    background: url(../img/login-submit.png) no-repeat;
+    text-indent: -1000em;
+    *font-size: 0;
+    *line-height: 100px;
+    overflow: hidden;
+    *position: relative;
+    *top: -2px;
+}
+
+div.form-login input.submit:hover {
+    background-position: left -25px !important;
+}
+div.form-login a {
+    display: block;
+    font-size: 11px;
+    color: #1f5bae;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    margin: 2px 40px 0 0;
+    text-align: right;
+}
+
+#container {
+    width: 978px;
+    padding: 0 9px;
+    background: url(../img/wrapper.png) repeat-y;
+    _background: url(../img/ie6/wrapper.gif) repeat-y;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#top {
+    background: url(../img/top.png) repeat-x;
+    height: 281px;
+    position: relative;
+}
+
+#top #zoom {
+    list-style: none;
+    float: left;
+    margin: 0 0 0 10px;
+    overflow: hidden;
+}
+
+#top #zoom li {
+    margin: 0 15px 0 0;
+    width: 30px;
+    height: 30px;
+    text-indent: -1000em;
+    float: left;
+}
+
+#top #zoom li a {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+#top #zoom li.in a {
+    background: url(../img/zoom-in.png) no-repeat;
+    _background: url(../img/ie6/zoom-in.gif) no-repeat;
+}
+
+#top #zoom li.normal a {
+    background: url(../img/zoom-0.png) no-repeat;
+    _background: url(../img/ie6/zoom-0.gif) no-repeat;
+}
+
+#top #zoom li.out a {
+    background: url(../img/zoom-out.png) no-repeat;
+    _background: url(../img/ie6/zoom-out.gif) no-repeat;
+}
+
+#top #menu {
+    width: 421px;
+    height: 33px;
+    float: right;
+    background: url(../img/menu.png) no-repeat;
+    _background: url(../img/ie6/menu.gif) no-repeat;
+    list-style: none;
+    padding: 0 12px;
+    margin: 0 9px 16px 0;
+}
+
+#top #menu li {
+    float: left;
+    border-left: solid 1px #c6d5eb;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 0 12px;
+}
+
+#top #menu li a {
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+#top #menu li.left {
+    border: none;
+}
+
+#top #logo {
+    position: absolute;
+    top: 86px;
+    left: 37px;
+}
+
+#top #logo a {
+    width: 285px;
+    height: 75px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+    text-indent: -1000em;
+}
+
+#top cite {
+    display: block;
+    font-style: normal;
+    font-size: 12px;
+    width: 420px;
+    position: absolute;
+    top: 191px;
+    left: 51px;
+}
+
+#top div.carousel_container {
+    display: block;
+    position: absolute;
+    top: 107px;
+    right: 10px;
+    width: 500px;
+    padding: 0 36px;
+    height: 220px;
+    overflow: hidden;
+}
+
+#top div.carousel_container object {
+    margin: -50px 0 0 0;
+}
+
+#content {
+    background: url(../img/content-top.png) no-repeat;
+    padding: 59px 12px 0 21px;
+    _padding: 59px 0 0 21px;
+}
+
+#content #main {
+    width: 700px;
+    float: left;
+    margin: 0 21px 0 0;
+}
+
+#content h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #b39e07;
+    padding: 0 0 13px;
+    border-bottom: solid 1px #e5e5e5;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    *position: relative;
+}
+
+#content h2 a {
+    font-size: 11px;
+    color: #1f5bae;
+    font-weight: bold;
+    float: right;
+    margin: 3px;
+    *position: absolute;
+    *right: 0;
+    *float: none;
+}
+
+#content h2 a cite {
+    font-weight: normal;
+    font-style: normal;
+}
+
+#content h3,
+#content h4 {
+    font-size: 16px;
+    margin: -1px 0 -3px 0;
+}
+
+#content h3 a,
+#content h4 a {
+    color: #000000;
+}
+
+#content h3 a:hover,
+#content h4 a:hover {
+    color: #4758c1;
+}
+
+#content h4 {
+    margin: 10px 0;
+}
+
+#content div.item {
+    overflow: hidden;
+    margin: 0 0 40px 0;
+}
+
+#content div.item img {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+#content div.item div.info {
+    overflow: hidden;
+}
+
+#content div.item div.info cite {
+    color: #999999;
+    font-style: normal;
+    font-size: 10px;
+}
+
+#content div.item div.info p {
+    margin: 11px 0 0 0;
+}
+
+#content ol.info {
+    list-style: none;
+    overflow: hidden;
+    margin: 0 0 67px -7px;
+}
+
+#content ol.info li {
+    width: 218px;
+    display: block;
+    float: left;
+    margin: 0 0 0 17px;
+    padding: 0 0 0 6px;
+}
+
+#content ol.info li.left {
+    margin: 0;
+}
+
+#content ol.info li div.image {
+    width: 218px;
+    display: block;
+    height: 112px;
+    position: relative;
+    padding: 0 0 6px 6px;
+    margin: 0 0 9px -6px;
+}
+
+#content ol.info li div.image span {
+    display: block;
+    width: 37px;
+    height: 37px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    line-height: 37px;
+    font-size: 25px;
+    background: url(../img/bullet.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/bullet.png",sizingMethod="crop") ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#content ol.info li h3 {
+    margin: 0 0 7px 0;
+}
+
+#content ul.dict-letters {
+    overflow: hidden;
+    _margin-bottom: 24px;
+}
+
+#content ul.dict-letters li a {
+    display: block;
+    width: 31px;
+    height: 31px;
+    background: #ffffff;
+    line-height: 31px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: #1f5bae;
+}
+
+#content ul.dict-letters li a:hover {
+    background: #7297cc;
+    color: #ffffff;
+}
+
+#content ul.dict-letters li {
+    display: block;
+    width: 31px;
+    height: 31px;
+    border: solid 1px #cdcdcd;
+    float: left;
+    margin: 0 12px 24px;
+    _margin: 0 10px 24px;
+}
+
+table.products {
+    border: none;
+}
+
+table.products th,
+table.products td {
+    background: none;
+    border: none;
+}
+
+table.products input.product {
+    width: 520px;
+    *float: left;
+}
+
+table.products input.weight {
+    width: 50px;
+}
+
+table.products td {
+    position: relative;
+}
+
+table.products td a.remove {
+    display: block;
+    width: 16px;
+    height: 16px;
+    float: right;
+    background: url(../img/delete.gif) no-repeat;
+    margin: 4px 0;
+    text-indent: -1000em;
+    overflow: hidden;
+}
+
+#sidebar {
+    overflow: hidden;
+    padding: 29px 9px 0 0;
+}
+
+#sidebar ul.logins {
+    width: 213px;
+    padding: 1px;
+    background: url(../img/logins.png) no-repeat;
+}
+
+#sidebar ul.logins li {
+    position: relative;
+}
+
+#sidebar ul.logins li a {
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    padding: 19px 0 0 9px;
+    width: 204px;
+    height: 61px;
+    border-bottom: solid 1px #cdcdcd;
+    color: #999999;
+    position: relative;
+}
+
+#sidebar ul.logins li.last {
+    height: 8px;
+    background: url(../img/logins.png) no-repeat;
+    background-position: left bottom;
+    margin: 0 -1px;
+}
+
+#sidebar ul.logins li.nurse a,
+#sidebar ul.logins li.nurse a:hover {
+    border: none;
+}
+
+#sidebar ul.logins li a:hover {
+    border-bottom-style: dotted;
+    background: url(../img/logins-hover.png) repeat-x;
+}
+
+#sidebar ul.logins-expanded li.patient,
+#sidebar ul.logins li.patient a:hover {
+    background: url(../img/logins-top-hover.png) no-repeat;
+}
+
+#sidebar ul.logins li.patient em {
+    color: #1977eb;
+}
+
+#sidebar ul.logins li.doctor em {
+    color: #0ea969;
+}
+
+#sidebar ul.logins li.nurse em {
+    color: #d93838;
+}
+
+#sidebar ul.logins li em {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+}
+
+#loginbox h2 span,
+#sidebar ul.logins li span {
+    display: block;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+}
+
+#loginbox h2 span,
+#sidebar ul.logins li.patient span {
+    background: url(../img/logins-patient.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/logins-patient.png",sizingMethod="crop") ;
+}
+
+#sidebar ul.logins li.doctor span {
+    background: url(../img/logins-doctor.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/logins-doctor.png",sizingMethod="crop") ;
+}
+
+#sidebar ul.logins li.nurse span {
+    background: url(../img/logins-nurse.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/logins-nurse.png",sizingMethod="crop") ;
+}
+
+#sidebar a.diet {
+    display: block;
+    background: url(../img/sidebar-diet.png) no-repeat;
+    margin: 5px 0 0 0;
+    padding: 32px 0 0 14px;
+    width: 210px;
+    height: 121px;
+    color: #000000;
+}
+
+#sidebar a.diet strong {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 0 0 9px 0;
+}
+
+#sidebar a.diet cite {
+    font-style: normal;
+    color: #878787;
+    display: block;
+    width: 125px;
+}
+
+#sidebar h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #5382c4;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 18px 0 16px 0;
+}
+
+#sidebar div.newsletter input.text {
+    width: 136px;
+}
+
+#sidebar div.newsletter input.submit,
+#loginbox input.submit {
+    width: 55px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    background: url(../img/newsletter-submit.png) no-repeat;
+    position: relative;
+    padding: 0 0 2px 0;
+}
+
+#sidebar div.newsletter input.submit:hover,
+#loginbox input.submit:hover {
+    background-position: left -25px !important;
+}
+
+#bottom {
+    clear: both;
+    height: 85px;
+    background: url(../img/container-bottom.png) no-repeat;
+    margin: 0px -12px 0 -21px;
+}
+
+#footer {
+    width: 979px;
+    height: 72px;
+    background: url(../img/footer.png) no-repeat;
+    _background: url(../img/ie6/footer.gif) no-repeat;
+    margin: 0 auto;
+    padding: 22px 0 0 17px;
+    position: relative;
+}
+
+#footer a.sanofi {
+    display: block;
+    text-indent: -1000em;
+    position: absolute;
+    right: 28px;
+    top: 14px;
+    width: 99px;
+    height: 53px;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer ul li {
+    display: inline;
+    color: #d7d7d7;
+}
+
+#footer ul li:before {
+    content: " | ";
+}
+
+#footer ul li:first-child:before {
+    content: "";
+}
+
+#footer ul li a {
+    color: #1f5bae;
+    padding: 0 10px;
+}
+
+#footer address {
+    font-style: normal;
+    padding: 2px 10px;
+    color: #696969;
+}
+
+/* patient */
+#logged-menu {
+    list-style: none;
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+#logged-menu li {
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+#logged-menu li.left {
+    margin: 0;
+}
+
+#logged-menu li a {
+    display: block;
+    width: 91px;
+    height: 38px;
+    background: url(../img/small-menu.png) no-repeat;
+    font-weight: bold;
+    padding: 13px 58px 13px 11px;
+    color: #1f5bae;
+    position: relative;
+}
+
+body.doctor #logged-menu li a,
+body.nurse #logged-menu li a {
+    background: url(../img/large-menu.png) no-repeat;
+    padding-right: 238px;
+}
+
+#logged-menu li a:hover {
+    background: url(../img/small-menu-hover.png) no-repeat;
+}
+
+#logged-menu li a cite {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#logged-menu li a span {
+    display: block;
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 10px;
+    right: 10px;
+}
+
+#logged-menu li.mail a span {
+    background: url(../img/usermenu-mail.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/usermenu-mail.png",sizingMethod="crop") ;
+}
+
+#logged-menu li.calendar a span {
+    background: url(../img/usermenu-calendar.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/usermenu-calendar.png",sizingMethod="crop") ;
+}
+
+#logged-menu li.help a span {
+    background: url(../img/usermenu-help.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/usermenu-help.png",sizingMethod="crop") ;
+}
+
+#logged-menu li.calculator a span {
+    background: url(../img/usermenu-calculator.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/usermenu-calculator.png",sizingMethod="crop") ;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 1px #e5e5e5;
+    margin: 0 0 30px 0;
+}
+
+table th {
+    background: #ced5e0;
+}
+
+table th,
+table td {
+    border-right: solid 1px #e5e5e5;
+    color: #666666;
+    padding: 4px 10px;
+    font-weight: normal;
+    text-align: left;
+}
+
+table td a {
+    color: #666666;
+}
+
+table tr.shade td {
+    background: #f8fafd;
+}
+
+ul.apps {
+    list-style: none;
+}
+
+ul.apps li {
+    float: left;
+    margin: 0 0 0 9px;
+}
+
+ul.apps li.left {
+    margin: 0;
+}
+
+ul.apps li a {
+    display: block;
+    padding: 11px 10px;
+    width: 70px;
+    height: 88px;
+    color: #002f62;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    line-height: normal;
+}
+
+ul.apps li a:hover {
+    background: url(../img/apps-hover.png) no-repeat;
+}
+
+#sidebar ul.logins-expanded li em {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 27px 10px 19px;
+}
+
+#sidebar ul.logins-expanded li ul li a {
+    display: block;
+    height: 30px;
+    padding: 0 19px;
+    line-height: 30px;
+    margin: 0;
+    border: none;
+    color: #1f5bae;
+    font-weight: bold;
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    width: 175px;
+    background: url(../img/dot.png) no-repeat;
+    background-position: 10px center;
+}
+
+#sidebar ul.logins-expanded li ul li a cite {
+    font-style: normal;
+    font-weight: normal;
+}
+
+#wrapper #sidebar ul.logins-expanded li ul li a:hover {
+    border: none;
+    background: #7297cc url(../img/dot-hover.png) no-repeat;
+    background-position: 10px center;
+    color: #ffffff;
+}
+
+#sidebar ul.logins-expanded li ul li ul li a {
+    background: url(../img/dash.png) no-repeat;
+    background-position: 20px center;
+    padding: 0 19px 0 29px;
+    width: 165px;
+}
+
+#wrapper #sidebar ul.logins-expanded li ul li ul li a:hover {
+    background: #7297cc url(../img/dash-hover.png) no-repeat;
+    background-position: 20px center;
+    color: #ffffff;
+}
+
+/* loginbox */
+#loginbox {
+    width: 613px;
+    height: 324px;
+    padding: 7px 8px 9px;
+    background: url(../img/loginbox.png) no-repeat;
+    _background: url(../img/ie6/loginbox.gif) no-repeat;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -315px;
+    font-size: 12px;
+    color: #414141;
+    z-index: 2;
+}
+
+#loginbox h2 {
+    height: 36px;
+    border-bottom: solid 1px #c2c2c2;
+    position: relative;
+    font-size: 11px;
+    color: #999999;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    padding: 19px 0 17px 79px;
+}
+
+#loginbox h2.patient {
+    background: url(../img/loginbox-patient.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/loginbox-patient.png",sizingMethod="crop") ;
+}
+
+#loginbox h2 strong {
+    display: block;
+    font-weight: bold;
+    color: #1977eb;
+    font-size: 16px;
+}
+
+#loginbox h2 span {
+    left: 19px;
+    right: auto;
+}
+
+#loginbox h3 {
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #414141;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+#loginbox div.loginbox-form,
+#loginbox div.loginbox-info {
+    padding: 0 20px;
+    float: left;
+    margin: 18px 0 0 0;
+    position: relative;
+    height: 203px;
+}
+
+#loginbox div.loginbox-form {
+    border-right: solid 1px #e0e0e0;
+    width: 258px;
+    margin: 18px 28px 0 0;
+}
+
+#loginbox label {
+    display: block;
+    margin: 0 0 1px 0;
+}
+
+#loginbox input.text {
+    width: 185px;
+    margin: 0 0 17px 0;
+}
+
+#loginbox div.loginbox-info ul {
+    padding: 11px 0 0 0;
+    line-height: 25px;
+    list-style: none;
+}
+
+#loginbox div.loginbox-info ul li {
+    padding: 0 0 0 18px;
+    background: url(../img/tick.png) no-repeat;
+    background-position: left center;
+}
+
+#loginbox a.remind {
+    font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #1f5bae;
+}
+
+#loginbox #password {
+    margin: 0 0 2px 0;  
+}
+
+#loginbox input.submit,
+#loginbox a.submit {
+    width: 125px;
+    background: url(../img/loginbox-submit.png) no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+#globalMask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.25;
+    filter: alpha(opacity=25);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    _ie-xp: expression(this.parsed ? 0 : this.style.height = document.body.offsetHeight.toString() + 'px', this.parsed = 1);
+}
+
+/* DOCTOR */
+body.doctor {
+    background: #ffffff url(../img/doctor-body-top.png) repeat-x;
+}
+
+body.doctor #top {
+    background: url(../img/doctor-top.png) repeat-x;
+}
+
+body.doctor #top #menu {
+    background: url(../img/doctor-menu.png) no-repeat;
+    _background: url(../img/ie6/doctor-menu.gif) no-repeat;
+}
+
+body.doctor #content {
+    background: url(../img/doctor-content-top.png) no-repeat;
+}
+
+body.doctor div.login a.logout {
+    background: url(../img/doctor-logout.png) no-repeat;
+}
+
+body.doctor #sidebar div.newsletter input.submit {
+    background: url(../img/doctor-newsletter-submit.png) no-repeat;
+}
+
+body.doctor #logged-menu li a:hover {
+    background: url(../img/doctor-large-menu-hover.png) no-repeat;
+}
+
+body.doctor #logged-menu li.mail a span {
+    background: url(../img/doctor-usermenu-mail.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/doctor-usermenu-mail.png",sizingMethod="crop") ;
+}
+
+body.doctor #logged-menu li.calendar a span {
+    background: url(../img/doctor-usermenu-calendar.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/doctor-usermenu-calendar.png",sizingMethod="crop") ;
+}
+
+body.doctor table th {
+    background: #96ccb3;
+}
+
+body.doctor table tr.shade td {
+    background: #dcf0e7;
+}
+
+body.doctor #wrapper #sidebar ul.logins-expanded li ul li a:hover {
+    background: #26a36a url(../img/dot-hover.png) no-repeat;
+    background-position: 10px center;
+}
+
+body.doctor #sidebar a.diet {
+    background: url(../img/doctor-sidebar-diet.png) no-repeat;
+}
+
+/* NURSE */
+body.nurse {
+    background: #ffffff url(../img/nurse-body-top.png) repeat-x;
+}
+
+body.nurse #top {
+    background: url(../img/nurse-top.png) repeat-x;
+}
+
+body.nurse #top #menu {
+    background: url(../img/nurse-menu.png) no-repeat;
+    _background: url(../img/ie6/nurse-menu.png) no-repeat;
+}
+
+body.nurse #content {
+    background: url(../img/nurse-content-top.png) no-repeat;
+}
+
+body.nurse div.login a.logout {
+    background: url(../img/nurse-logout.png) no-repeat;
+}
+
+body.nurse #sidebar div.newsletter input.submit {
+    background: url(../img/nurse-newsletter-submit.png) no-repeat;
+}
+
+body.nurse #logged-menu li a:hover {
+    background: url(../img/nurse-large-menu-hover.png) no-repeat;
+}
+
+body.nurse #logged-menu li.mail a span {
+    background: url(../img/nurse-usermenu-mail.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/nurse-usermenu-mail.png",sizingMethod="crop") ;
+}
+
+body.nurse #logged-menu li.calendar a span {
+    background: url(../img/nurse-usermenu-calendar.png) no-repeat;
+    _background: none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/nurse-usermenu-calendar.png",sizingMethod="crop") ;
+}
+
+body.nurse table th {
+    background: #f2b5b5;
+}
+
+body.nurse table tr.shade td {
+    background: #fff6f6;
+}
+
+body.nurse #wrapper #sidebar ul.logins-expanded li ul li a:hover {
+    background: #e36060 url(../img/dot-hover.png) no-repeat;
+    background-position: 10px center;
+}
+
+body.nurse #sidebar a.diet {
+    background: url(../img/nurse-sidebar-diet.png) no-repeat;
+}
+
+/* FIXME */
+body.patient #top #logo,
+body.doctor #top #logo,
+body.nurse #top #logo {
+    visibility: hidden;
+}
